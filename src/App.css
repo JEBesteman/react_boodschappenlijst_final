@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.groceries-header {
+  background-color: #23212e;
+  color: white;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 15px;
+  background-color: lightskyblue;
+  margin: 5 px;
+  color: black;
+}
+
+.shopping .list-item {
+  background: lightskyblue;
+}
+
+.shopping .list-item:nth-child(even) {
+  background: lightcyan;
+}
+
+.groceries .list-item {
+  background: lightpink;
+}
+
+.groceries .list-item:nth-child(even) {
+  background: lightcoral;
+}
+
+.delete-btn,
+.input-field {
+  width: 200px;
+}
+
+.groceries-list {
+  width: 50%;
+  padding: 20px;
+}
