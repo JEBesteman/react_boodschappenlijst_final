@@ -22,12 +22,12 @@ class InputField extends React.Component {
       <form className="groceries-input" onSubmit={this.onSubmit}>
         <input
           type="text"
-          placeholder="Wat moet je nog meer meenemen?"
+          placeholder="Vul je boodschappen in"
           value={this.state.input}
           className="input-field"
           onChange={this.inputValue}
         ></input>
-        <button type="submit" className="submit-btn">
+        <button className="submit-btn" type="submit" >
           Voeg toe
         </button>
       </form>

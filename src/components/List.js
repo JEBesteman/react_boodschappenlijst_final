@@ -9,7 +9,7 @@ import ListItem from "./ListItem";
 //         key={item.id}
 //         item={item}
 //         clickItem={handleClickItem}
-            // readonly={readonly}     
+//         readonly={readonly}
 //       />
 //     ));
 
@@ -25,7 +25,6 @@ const List = ({ items, handleClickItem, readonly }) => {
       item={item}
       clickItem={handleClickItem}
       readonly={readonly}
-
     />
   ));
   return <ul>{listItems}</ul>;
